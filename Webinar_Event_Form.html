@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webinar_Event_Form</title>
+</head>
+<style>
+    .form{
+        /* border:1px solid black; */
+        width: 100%;
+        height: auto;
+        background-color:lightgrey;
+        display: flex;
+        flex-direction: column;
+    }
+    .details{
+        /* border: 1px solid lightgray;  */
+        width: 280px; 
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+</style>
+<body>
+    <h1>Webinar Event Form</h1>
+    <div class="form">
+    <form action="" method="post" name="Webinar Form">
+        <div class="details">
+        <label for="name" style="padding-top: 30px;font-size: 14px; "><b>Name:</b></label>
+        <input type="text" value="" name="name" style="height: 38px; border-radius: 5px; border: 1px solid darkgray; margin-top: 8px;">
+
+        <label for="email" style="padding-top: 20px; font-size: 14px;"><b>Email:</b></label>
+        <input type="email" value="" name="email" style="height: 38px; border-radius: 5px; border: 1px solid darkgray; margin-top: 8px;"">
+
+        <label for="Phone" style="padding-top: 20px; font-size: 14px;"><b>Phone:</b></label>
+        <input type="number" value="" name="phone" style="height: 38px; border-radius: 5px; border: 1px solid darkgray; margin-top: 8px;"" >
+
+        <label for="people" style="padding-top: 20px; font-size: 14px;"><b>Number of People:</b></label>
+        <input type="number" value="" name="people" style="height: 38px; border-radius: 5px; border: 1px solid darkgray; margin-top: 8px;">
+
+        <label style="padding-top: 20px; font-size: 14px;"><b>Will you attend the Event?</b></label>
+        <select style="height: 40px; border-radius: 5px; margin-top: 8px;">
+            <option value="">Yes</option>
+            <option value="">No</option>
+        </select>
+
+        <button style="background-color: green; color: #fff; border: green;margin-top: 25px; margin-bottom: 25px; height: 40px; border-radius: 5px; ">Submit</button>
+
+        </div>
+
+
+
+    </form>
+    </div>
+    
+</body>
+</html>
